@@ -1,4 +1,4 @@
-POC for better exception reporting for futures (macro-based)
+Demo for better exception reporting for futures (macro-based)
 
 When futures fail exceptions often contain too little context to determine the path of
 composition leading to the error. This is a proof-of-concept how to use static source code 
@@ -49,3 +49,4 @@ CallInfo(CallSite(net.virtualvoid.futures.FutureTest,None,FutureTest.scala,19),R
 )
 ```
 
+This demo was prompted by a [thread on scala-user](https://groups.google.com/d/topic/scala-user/BjgQpWeqA0w/discussion).
